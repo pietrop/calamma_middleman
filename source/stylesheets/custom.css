@@ -1,0 +1,60 @@
+.thumb {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+
+
+}
+.thumb img {
+    min-width: 200px;
+    min-height: 150px;
+    width: 200px;
+}
+
+.thumbnail > img {
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.thumbnail .caption {
+  padding: 9px;
+  color: #333333;
+}
+
+.fivehundred {
+    min-width: 500px;
+    min-height: 500px;
+    width: 200px;
+}
+
+
+.fivehundred img {
+    min-width: 500px;
+    min-height: 500px;
+    width: 200px;
+}
+
+
+img {
+  margin: 5px;
+  
+}
+
+
+.index {
+  min-width: 200px;
+    min-height: 150px;
+    width: 200px;
+}
+
+
+
+.navbar-default  {
+background-color: white;
+
+}
+
+
+
+

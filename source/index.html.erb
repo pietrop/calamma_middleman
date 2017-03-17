@@ -1,0 +1,27 @@
+---
+title: Welcome to Middleman
+---
+
+<div class="row">
+	<%= image_tag 'images/casa_wide.jpeg', :class => 'img-rounded img-responsive' %> 
+</div>
+
+<hr class="featurette-divider" id="index">
+
+<%= partial(:card_reverse, :locals =>  data.content.about) %>
+
+<%= partial(:card_reverse, :locals =>  data.content.rooms) %>
+
+
+<%= partial(:card_reverse, :locals =>  data.content.house) %>
+
+<%= partial(:card_reverse, :locals =>  data.content.activities) %>
+
+<%= partial(:card_reverse, :locals =>  data.content.nearby) %>
+
+<%= partial(:card_reverse, :locals =>  data.content.bologna) %>
+
+<!-- add a contacts partial here  -->
+
+<%= partial(:contact) %>
+

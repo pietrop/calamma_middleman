@@ -1,0 +1,81 @@
+title: "Ca'Lamma Bed & Breakfast"
+about:
+    link: "about"
+    heading: "Ca'Lamma Bed & Breakfast"
+    text: "Is a wide old stone house, built in the last centuries and restructured recently, on the Appennini, between Bologna and Florence.\n At 350 meters of altitude, fresh during Summer and cosy in the Winter.One of the great benefit of this location is that despite the rural location it enjoys a secure and peaceful outside space In a lovely setting, on a quiet road in the countryside. "
+    lead_image: "casa.jpeg"
+    images: 
+        - field.jpg 
+        - casa_sourrounding_gazebo.jpeg
+        - casa_sourrounding_2.jpeg
+
+rooms: 
+    link: "rooms" 
+    heading: "The Rooms."
+    text: "On the first floor there is a living room with a mini-kitchen, a sofa and a chemney.  On the second floor there are a double bed room and a twin bedroom each with it's own bathroom. From Spring to Autumn it is possible to have breakfast under a gatzebo.<br><br> Per Person (Single Room) min: 25 / max: 50 Euros \n Double Rooms min: 50 / max: 70 Euros\n <br> Weekly min: 250 / max: 500 Euros"
+    lead_image: "entrance_bed_and_break.jpeg"
+    images: 
+        - bedroom2.jpeg
+        - bb_bathrom2.jpeg
+        - bb_bathron1.jpeg  
+
+prices: 
+    link: "prices"
+    heading: "Prices"
+    text: "Per Person (Single Room) min: 25 / max: 50 Euros \n Double Rooms min: 50 / max: 70 Euros\n Weekly min: 250 / max: 500 Euros"
+    lead_image: "casa2.jpeg"
+    images: 
+        - casa.jpg 
+
+house:
+    link: "rent"
+    heading: House Rent
+    text: "Recently refurbished house, on ground floor a spacious living room and dining area with kitchen. On Second floor a double bed room and a single bedroom with a shared bathroom."
+    lead_image: "fienile_6.jpg"
+    images: 
+        - fienile_2.jpg
+        - fienile_5.jpg
+        - fienile_bedroom2.jpeg
+        - fienile_livingroom2.jpeg
+
+activities: 
+    link: "activities"
+    heading: "Activities."
+    text: "One to four Km far from the house there are typical foodshops, supermarkets, restaurants and sport activities (like horseriding, swimming, playing tennis, biking)."
+    list: 
+        - text: Villaggio della salute piu 
+          link: http://www.villaggiodellasalutepiu.it/
+        - text: Maneggio Gianni
+          link: http://www.maneggiodagianni.it 
+        - text: Piscina Monterenzio 
+          link: http://www.sogese.com/piscine/monterenzio/
+        - text: Monterenzio Celtica
+          link: http://www.monterenzioceltica.it
+    lead_image: "villaggio-della-salute.jpg"
+    images: 
+        - piscina_monterenzio.jpeg
+        - maneggio.jpeg
+
+nearby: 
+    link: "nearby" 
+    heading: "Nearby."
+    text: "Ca' Lamma B&B is situated 25km far from Bologna on the road to Florence (90 Km) through Passo della Raticosa and not far from the main artistic cities of northern Italy ( Ravenna, Ferrara, Mantova, Venezia)."
+    images: 
+        - venice.jpeg
+        - firenze.jpeg
+        - ravenna.jpg
+
+
+bologna:
+    link: "bologna"
+    heading: "Bologna."
+    text: "Bologna with it's enticing porches it's only 30km away(45minutes).\n A side from exploring the roman/medieval town centre, it features a number of museum, Bologna Museo della citta, Egyptian, Medieval. Sette Chiese.\nAnd some of the best trattorie and restaurants of the region."
+    list: 
+        - text: Museum of Bologna 
+          link: http://www.genusbononiae.it/palazzi/palazzo-pepoli/
+        - text: Archeological museum 
+          link: http://www.museibologna.it/archeologicoen/
+    lead_image: "bologna.jpeg"
+    images: 
+        - bologna2.jpg
+        - roomba.jpeg 

@@ -1,0 +1,42 @@
+<!-- Card, lead image, text description and other images -->
+<hr class="featurette-divider"  id="<%= link %>">
+<!-- Lead image -->
+  <div class="row featurette">
+    <% if !(defined?(lead_image)).nil? %>
+    <div class="col-md-7">
+    <!-- Lightbox 2  -->
+        <a href="images/<%= lead_image %>" data-lightbox="<%= link %>" data-title="">
+          <%= image_tag lead_image, :class => 'ifeaturette-image img-responsive img-rounded' %> 
+        </a>
+    </div> <!-- end col-md-7 -->
+    <% end %>
+
+    <!-- Text description  -->
+    <% if !(defined?(lead_image)).nil? %>
+      <div class="col-md-5">
+    <% else %>
+    <div class="col-md-12">
+    <% end %>
+      <h2 class="featurette-heading"><%= heading %> </h2>
+        <p class="lead">
+          <%= text %>
+         
+          <% if !(defined?(list)).nil? %> 
+           <ul> 
+            <% list.each do |l|%>
+              <li class="list-unstyled"><p><a href="<%= l.link %>" target="_blank"> <%= l.text %></a></p></li>
+            <% end %>
+           </ul>
+          <% end %>
+    </div> <!-- end col-md-5 -->
+
+<!-- Other images -->
+<div class="col-md-12">
+  <% images.each do |img| %>
+  <!-- Lightbox 2 -->
+    <a href="images/<%= img %>" data-lightbox="<%= link %>" data-title="">
+      <%= image_tag img, :class => 'thumb img-rounded' %> 
+    </a>
+  <% end %>
+</div> <!-- end md 12 -->
+</div> <!-- end row featurette -->
